@@ -141,8 +141,6 @@ public class Player extends CollidableObject{
 		
 		super(startingX, startingY, ID);
 		
-		System.out.println("git test");
-		
 		setIsJumping(false);
 		dy = STARTING_DY;
 		jumpHeight = INITIAL_JUMP_HEIGHT;
